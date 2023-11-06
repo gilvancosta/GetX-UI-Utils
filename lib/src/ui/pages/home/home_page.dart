@@ -30,6 +30,13 @@ class _HomePageState extends State<HomePage> {
             onPressed: () => Get.toNamed("get-view"),
             child: const Text("get view"),
           ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => Get.toNamed("get-responsive-view"),
+            child: const Text("get-responsive-view"),
+          ),
+
+
         ],
       )),
     );
