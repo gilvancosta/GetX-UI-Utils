@@ -1,8 +1,10 @@
 import "package:flutter/material.dart";
 import "package:get/get.dart";
+import "package:get_x_others_api/src/ui/pages/get_view/get_view_page.dart";
 
 import "../main.dart";
 import "ui/pages/context_ext/context_ext_page.dart";
+import "ui/pages/get_view/controller/get_view_controller.dart";
 import 'ui/pages/home/home_page.dart';
 
 class MyApp extends StatelessWidget {
@@ -23,6 +25,13 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: "/", page: () => const HomePage()),
         GetPage(name: "/context-ext", page: () => const ContextExtPage()),
+        GetPage(
+          name: "/get-view",
+          binding: BindingsBuilder(() {
+            Get.lazyPut(() => GetViewController());
+          }),
+          page: () => const GetViewPage(),
+        ),
       ],
     );
   }

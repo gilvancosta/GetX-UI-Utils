@@ -25,6 +25,11 @@ class _HomePageState extends State<HomePage> {
             onPressed: () => Get.toNamed("context-ext"),
             child: Text("contextExt".tr),
           ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => Get.toNamed("get-view"),
+            child: const Text("get view"),
+          ),
         ],
       )),
     );
