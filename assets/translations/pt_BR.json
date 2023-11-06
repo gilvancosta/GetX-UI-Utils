@@ -1,0 +1,8 @@
+{
+  "titleApp": "GetX Outras API",
+  "welcome": "Bem-vindo",
+  "hello": "Olá @name",
+  "name": "Nome",
+  "userListTitleSimple": "@total Usuário",
+  "userListTitlePlural": "@total Usuários"
+}

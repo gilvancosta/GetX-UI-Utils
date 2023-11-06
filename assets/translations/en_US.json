@@ -1,0 +1,8 @@
+{
+  "titleApp": "GetX others API",
+  "welcome": "Welcome",
+  "hello": "Hello @name",
+  "name": "Name",
+  "userListTitleSimple": "@total user",
+  "userListTitlePlural": "@total Users"
+}
